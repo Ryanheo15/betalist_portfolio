@@ -1,0 +1,126 @@
+
+ /*
+  * General Styles
+  */
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color:#f7f8fd;
+}
+
+/*
+ * NavBar
+ */
+
+ .navbar {
+   background-color:#f7f8fd;
+   box-shadow: 0 8px 16px 0 #c5cbe1;
+   height:90px;
+ }
+
+ .nav-item {
+   border-radius:4px;
+   background-color:#ebecf5;
+   margin-right:18px;
+
+ }
+
+ .nav-link {
+   font-family: 'Monserrat';
+   padding:0;
+   font-size:20px !important;
+   font-weight:600 !important;
+   color:#5e5e6b;
+ }
+
+ .icons {
+   margin-left:106px;
+ }
+
+/*
+ * Main Page Content
+ */
+
+ /* Genral */
+ main {
+   padding-top:142px;
+ }
+
+/* Title */
+ .main-title {
+   width:476px;
+   font-family:'Roboto Slab';
+   font-size: 60px;
+   font-weight: bold;
+   line-height:1.05;
+ }
+
+ .secondary-title {
+   width:776px;
+   font-family: 'Montserrat';
+   font-size:36px;
+   font-weight:600;
+   line-height:1.11;
+   color:#5e5e6b;
+   margin-top:24px;
+ }
+
+ /* Transition */
+ .transition {
+   width:111px;
+   height:51px;
+   object-fit: contain;
+ }
+
+ .transition-cont {
+   margin-top:130px;
+ }
+
+ /* Projects */
+ .projects {
+   margin-top:170px;
+ }
+
+ .project-title {
+   width:156px;
+   height:40px;
+   font-family: 'Montserrat';
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 1.11;
+ }
+
+/*
+ * Footer
+ */
+
+/*
+ * Media Queries
+ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}

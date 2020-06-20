@@ -93,6 +93,38 @@ body {
    line-height: 1.11;
  }
 
+ .project_cont {
+   background-color:#f7f8fd;
+   width:824px;
+   border-radius:  8px;
+   box-shadow: 0 6px 18px 0 #ebecf5;
+   height:494px;
+   margin-top:36px;
+ }
+
+ .action_image {
+   width:776px;
+   height:255px;
+   padding-left:24px;
+   padding-right:24px;
+   padding-top:25px;
+ }
+
+ .action_title {
+   width:600px;
+   margin-top:23px;
+   padding-left:24px;
+   height: 48px;
+   font-family: RobotoSlab-Regular_;
+   font-size: 30px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.6;
+   letter-spacing: normal;
+   color:#000000;
+ }
+
 /*
  * Footer
  */

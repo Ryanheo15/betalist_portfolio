@@ -82,6 +82,7 @@ body {
  /* Projects */
  .projects {
    margin-top:170px;
+   width:824px;
  }
 
  .project-title {
@@ -91,23 +92,24 @@ body {
    font-size: 36px;
    font-weight: 600;
    line-height: 1.11;
+   padding-left:24px;
  }
 
- .project_cont {
+ .action_cont {
    background-color:#f7f8fd;
-   width:824px;
-   border-radius:  8px;
+   width:800px !important;
+   border-radius:8px;
    box-shadow: 0 6px 18px 0 #ebecf5;
    height:494px;
    margin-top:36px;
  }
 
  .action_image {
-   width:776px;
+   width:776px !important;
    height:255px;
    padding-left:24px;
-   padding-right:24px;
    padding-top:25px;
+   margin:0;
  }
 
  .action_title {
@@ -115,7 +117,7 @@ body {
    margin-top:23px;
    padding-left:24px;
    height: 48px;
-   font-family: RobotoSlab-Regular_;
+   font-family: 'Roboto Slab';
    font-size: 30px;
    font-weight: bold;
    font-stretch: normal;
@@ -123,6 +125,62 @@ body {
    line-height: 1.6;
    letter-spacing: normal;
    color:#000000;
+ }
+
+ .action_para {
+  width: 600px;
+  height: 60px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-left:24px;
+  color:#5e5e6b;
+ }
+
+ .action_btn {
+   margin-top:23px;
+   width: 147px;
+   height: 43px;
+   font-size: 16px;
+   font-weight: 600;
+   border-radius:4px;
+   background-color:#eff0f4;
+   margin-right:24px;
+   color:#a4a4aa;
+ }
+
+ .action_avail {
+   width: 166px;
+   height: 32px;
+   margin-right:24px;
+   margin-top:21px;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 2;
+   color:#5e5e6b;
+ }
+
+ .alto_cont {
+   padding-left:24px;
+   margin-top:24px;
+ }
+
+ .alto_image {
+   display:inline;
+   width:176px;
+   height:176px;
+   object-fit:contain;
+ }
+
+ .alto_title {
+   display:inline;
+   width: 400px;
+   height: 48px;
+   font-size: 30px;
+   font-weight: bold;
+   line-height: 1.6;
+
  }
 
 /*

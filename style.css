@@ -174,13 +174,37 @@ body {
  }
 
  .alto_title {
-   display:inline;
    width: 400px;
    height: 48px;
    font-size: 30px;
    font-weight: bold;
    line-height: 1.6;
+ }
 
+ .alto_text {
+   width: 400px;
+   height: 60px;
+   font-family: 'Montserrat';
+   font-size: 20px;
+   font-weight: 500;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.5;
+   letter-spacing: normal;
+   color:#5e5e6b;
+
+ }
+
+ .alto_btn {
+   width: 148px;
+   height: 43px;
+   border-radius: 4px;
+   margin-right:48px;
+   background-color:#eff0f4;
+   font-size: 16px;
+   font-weight: 600;
+   color:#a4a4aa;
+   border:none;
  }
 
 /*
